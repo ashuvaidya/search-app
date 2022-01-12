@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing for result card component render result card component 1`] = `
+<div>
+  <div
+    class="card-data"
+  >
+    <div
+      aria-label="title"
+      class="card-title"
+    >
+      <strong>
+        test
+      </strong>
+    </div>
+    <div
+      aria-label="description"
+      class="card-content"
+    >
+      test
+    </div>
+    <div
+      aria-label="tags"
+      class="card-content"
+    >
+      <span>
+        Tags: 
+      </span>
+      <ul>
+        <li>
+          test
+        </li>
+      </ul>
+    </div>
+    <div
+      aria-label="weight"
+      class="card-content"
+    >
+      <span>
+        Weight: 
+      </span>
+       
+      <strong>
+        0
+      </strong>
+    </div>
+  </div>
+</div>
+`;

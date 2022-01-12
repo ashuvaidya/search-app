@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing for App snapshot for App 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <div
+      class="header"
+    >
+      <h1>
+        Search Engine
+      </h1>
+    </div>
+    <div
+      class="container"
+    >
+      <div
+        class="search-section"
+      >
+        <input
+          aria-label="search"
+          class="search-box"
+          data-testid="input-search"
+          type="search"
+          value=""
+        />
+        <button
+          class="search-button"
+          data-testid="searchBtn"
+          name="searchBtn"
+        >
+          Search
+        </button>
+      </div>
+      <div
+        class="result-section"
+      />
+    </div>
+  </div>
+</div>
+`;

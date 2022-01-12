@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage click on search 1`] = `
+<div>
+  <div
+    class="header"
+  >
+    <h1>
+      Search Engine
+    </h1>
+  </div>
+  <div
+    class="container"
+  >
+    <div
+      class="search-section"
+    >
+      <input
+        aria-label="search"
+        class="search-box"
+        data-testid="input-search"
+        type="search"
+        value="test"
+      />
+      <button
+        class="search-button"
+        data-testid="searchBtn"
+        name="searchBtn"
+      >
+        Search
+      </button>
+    </div>
+    <div
+      class="result-section"
+    >
+      <div>
+         Fetching Details. Please wait...
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`HomePage renders homepage component 1`] = `
+<div>
+  <div
+    class="header"
+  >
+    <h1>
+      Search Engine
+    </h1>
+  </div>
+  <div
+    class="container"
+  >
+    <div
+      class="search-section"
+    >
+      <input
+        aria-label="search"
+        class="search-box"
+        data-testid="input-search"
+        type="search"
+        value=""
+      />
+      <button
+        class="search-button"
+        data-testid="searchBtn"
+        name="searchBtn"
+      >
+        Search
+      </button>
+    </div>
+    <div
+      class="result-section"
+    />
+  </div>
+</div>
+`;
